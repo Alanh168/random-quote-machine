@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Bubbler One";
+  src: url(../fonts/BubblerOne-Regular.ttf);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: firebrick;
+  -moz-box-shadow:    inset 0 0 40px #000000;
+  -webkit-box-shadow: inset 0 0 40px #000000;
+  box-shadow:         inset 0 0 40px #000000;
+}
+
+.container {
+  background-color: peru;
+  padding-top: 150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  height: 100vh;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+h1 {
+  color: firebrick;
+  font-family: "Brush Script MT", cursive;
+  font-weight: bold;
+  font-size: 64px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+p {
+  font-family: "Bubbler One";
+  color: firebrick;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.btn-new-quote {
+  font-weight: bold;
+  font-size: 24px;
+  color: goldenrod;
+  background-color: firebrick;
+  border: 4px;
+  box-shadow: 3px 3px 3px #000;
+  &:hover {
+    background-color: maroon;
+    color: goldenrod;
+  }
+}
+
+blockquote {
+  font-family: Brush Script MT, cursive;
+  margin-left: 15%;
+  margin-top: 3%;
+  width: 70%;
+  box-shadow: 2px;
+  border: 0;
+  .new-quote {
+    font-size: 40px;
+    color: firebrick;
+    font-weight: bold;
+  }
+  .author {
+    color: firebrick;
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
